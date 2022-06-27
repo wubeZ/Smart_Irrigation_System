@@ -6,9 +6,8 @@
 #define LCD_DATA    PORTD               //LCD data port
 #define en          PORTEbits.RE2      // enable signal
 #define rs          PORTEbits.RE0     // register selectsignal
-#define motor      PORTCbits.RC7     // Put the buzzer
+#define motor      PORTCbits.RC7     // Put the motor
 
-//#define buzzer      PORTCbits.RC7     // Put the buzzer
 
 void ADC_Init(){    
     ADCON1 = 0x00;
